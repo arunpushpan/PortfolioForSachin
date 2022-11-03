@@ -1,0 +1,57 @@
+body{
+    background-image: url(./cars.jpg);
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+}
+.menu{
+    position: fixed;
+    width: 100%;
+    background-color: aqua;
+    margin-top: 0px;
+    
+}
+.links{
+    display: inline;
+    font-size: 25px;
+    padding: 30px;
+}
+a{
+    color: red;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px blue;
+    
+}
+.links:hover{
+    font-size: 35px;
+    text-decoration: underline;
+}
+html{
+    scroll-behavior: smooth;
+
+}
+.profile{
+    margin-top: 50px;
+    width: 300px;
+}
+#name{
+    font-family: 'Fasthand', cursive;
+}
+#welcome{
+   background: linear-gradient(to bottom right, rgb(143, 62, 62), rgb(79, 79, 190));
+
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.contact_1 a{
+    text-shadow: none;
+    color: black;
+}
+.contact_1 h3{
+    display: inline;
+}
